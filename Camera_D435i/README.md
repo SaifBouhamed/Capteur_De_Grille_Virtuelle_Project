@@ -2,7 +2,7 @@
 
 Nœud ROS 2 qui capture les données RGB et de profondeur de l'Intel RealSense D435i, traite les flux de profondeur et publie les paquets RCMB combinés (image JPEG + nuage de points compressé zlib).
 
-## 📋 Aperçu
+##  Aperçu
 
 **Nœud :** `realsense_gpu_combined` (`rgbpc.cpp`)
 
@@ -13,7 +13,7 @@ Ce pilote :
 - Empaquette les deux au format RCMB et publie sur `/camera/combined`
 - Publie également le RGB séparément sur `/camera/rgb/image_compressed`
 
-## 🔧 Paramètres
+##  Paramètres
 
 | Paramètre | Défaut | Description |
 |-----------|--------|-------------|
@@ -29,7 +29,7 @@ Ce pilote :
 | `rgb_topic` | `/camera/rgb/image_compressed` | Sujet de sortie RGB |
 | `combined_topic` | `/camera/combined` | Sujet de sortie RCMB combiné |
 
-## 🚀 Construire et Exécuter
+##  Construire et Exécuter
 
 ### Construire
 ```bash
@@ -53,14 +53,14 @@ ros2 run mqtt_rgb_bridge realsense_gpu_combined --ros-args \
   -p axis_to_robot:=true
 ```
 
-## 📊 Sujets de Sortie
+##  Sujets de Sortie
 
 | Sujet | Type de Message | Description |
 |-------|-----------------|-------------|
 | `/camera/rgb/image_compressed` | `sensor_msgs/CompressedImage` | Image RGB compressée en JPEG |
 | `/camera/combined` | `std_msgs/ByteMultiArray` | Paquet RCMB (JPEG + nuage de points zlib) |
 
-## 🎛️ Fonctionnalités
+##  Fonctionnalités
 
 - **Accélération GPU** – Utilise OpenGL pour la génération rapide de nuage de points ; bascule vers CPU si indisponible
 - **Filtrage de Profondeur** – Applique les filtres de seuil, décimation, spatial et temporel
@@ -68,7 +68,7 @@ ros2 run mqtt_rgb_bridge realsense_gpu_combined --ros-args \
 - **Compression Efficace** – JPEG pour les images, zlib pour les nuages de points
 - **Alignement de Cadre** – Aligne la profondeur sur le cadre couleur pour une fusion RGB-D précise
 
-## 📖 Spécifications Matériel
+##  Spécifications Matériel
 
 Pour les spécifications détaillées, voir la [Fiche Technique Intel RealSense D400 Series](https://www.intel.com/content/www/us/en/content-details/841984/intel-realsense-d400-series-product-family-datasheet.html)
 
@@ -79,7 +79,7 @@ Spécifications clés :
 - **Fréquence d'Images :** Jusqu'à 90 FPS
 - **IMU :** 6 axes (3 axes accélération + 3 axes gyroscope)
 
-## 🔌 Exigences d'Installation
+##  Exigences d'Installation
 
 ```bash
 sudo apt install -y \
