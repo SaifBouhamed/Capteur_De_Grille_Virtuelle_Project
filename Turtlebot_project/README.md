@@ -11,7 +11,7 @@ Ce système capture en temps réel les données RGB et de profondeur de la camé
 ##  Démonstration
 
 ▶ Demo video: 
-https://github.com/user-attachments/assets/v1.0-real-life/demo.mp4
+[https://github.com/user-attachments/assets/v1.0-real-life/demo.mp4](https://github.com/SaifBouhamed/Capteur_De_Grille_Virtuelle_Project/releases/tag/v1.0-real-life)
 
 ### **Package 1 : `combined_decompressor`**
 Décompresse les paquets RCMB et génère les images RGB et nuages de points pour RViz.
