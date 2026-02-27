@@ -1,0 +1,160 @@
+[0.433s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'mqtt_rgb_bridge']
+[0.434s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mqtt_rgb_bridge'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb1892fb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb19fc4c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb19fc4c0>>)
+[1.088s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.090s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/turtlebot1/ros2_ws'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.140s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extensions ['colcon_meta']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extension 'colcon_meta'
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extensions ['ros']
+[1.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/mqtt_rgb_bridge) by extension 'ros'
+[1.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mqtt_rgb_bridge' with type 'ros.ament_cmake' and name 'mqtt_rgb_bridge'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extensions ['ignore', 'ignore_ament_install']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extension 'ignore'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extension 'ignore_ament_install'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extensions ['colcon_pkg']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extension 'colcon_pkg'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extensions ['colcon_meta']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extension 'colcon_meta'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extensions ['ros']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense_camera) by extension 'ros'
+[1.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense_camera' with type 'ros.ament_python' and name 'realsense_camera'
+[1.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.242s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense_camera' in 'src/realsense_camera'
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.248s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/turtlebot1/ros2_ws/install/realsense_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.249s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.252s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/turtlebot1/ros2_ws/install
+[1.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/turtlebot1/turtlebot3_ws/install
+[1.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 196 installed packages in /opt/ros/humble
+[1.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'cmake_args' from command line to 'None'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'cmake_target' from command line to 'None'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.427s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.428s] Level 5:colcon.colcon_core.verb:set package 'mqtt_rgb_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.428s] DEBUG:colcon.colcon_core.verb:Building package 'mqtt_rgb_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge', 'merge_install': False, 'path': '/home/turtlebot1/ros2_ws/src/mqtt_rgb_bridge', 'symlink_install': True, 'test_result_base': None}
+[1.429s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.432s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/turtlebot1/ros2_ws/src/mqtt_rgb_bridge' with build type 'ament_cmake'
+[1.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/turtlebot1/ros2_ws/src/mqtt_rgb_bridge'
+[1.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.444s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turtlebot1/ros2_ws/install/realsense_camera:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/turtlebot1/ros2_ws/src/mqtt_rgb_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge
+[7.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turtlebot1/ros2_ws/install/realsense_camera:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/turtlebot1/ros2_ws/src/mqtt_rgb_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge
+[7.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turtlebot1/ros2_ws/install/realsense_camera:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge -- -j4 -l4
+[39.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turtlebot1/ros2_ws/install/realsense_camera:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge -- -j4 -l4
+[39.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turtlebot1/ros2_ws/install/realsense_camera:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge
+[40.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mqtt_rgb_bridge)
+[40.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/turtlebot1/ros2_ws/install/realsense_camera:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_teleop:/home/turtlebot1/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/turtlebot1/ros2_ws/build/mqtt_rgb_bridge
+[40.205s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge' for CMake module files
+[40.209s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge' for CMake config files
+[40.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_rgb_bridge', 'cmake_prefix_path')
+[40.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/hook/cmake_prefix_path.ps1'
+[40.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/hook/cmake_prefix_path.dsv'
+[40.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/hook/cmake_prefix_path.sh'
+[40.219s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib'
+[40.220s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/bin'
+[40.220s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib/pkgconfig/mqtt_rgb_bridge.pc'
+[40.221s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib/python3.10/site-packages'
+[40.223s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/bin'
+[40.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.ps1'
+[40.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.dsv'
+[40.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.sh'
+[40.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.bash'
+[40.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.zsh'
+[40.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/colcon-core/packages/mqtt_rgb_bridge)
+[40.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mqtt_rgb_bridge)
+[40.241s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge' for CMake module files
+[40.244s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge' for CMake config files
+[40.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('mqtt_rgb_bridge', 'cmake_prefix_path')
+[40.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/hook/cmake_prefix_path.ps1'
+[40.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/hook/cmake_prefix_path.dsv'
+[40.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/hook/cmake_prefix_path.sh'
+[40.253s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib'
+[40.254s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/bin'
+[40.254s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib/pkgconfig/mqtt_rgb_bridge.pc'
+[40.255s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib/python3.10/site-packages'
+[40.256s] Level 1:colcon.colcon_core.environment:checking '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/bin'
+[40.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.ps1'
+[40.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.dsv'
+[40.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.sh'
+[40.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.bash'
+[40.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.zsh'
+[40.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/colcon-core/packages/mqtt_rgb_bridge)
+[40.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.271s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[40.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.294s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.297s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[40.297s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtlebot1/ros2_ws/install/local_setup.ps1'
+[40.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turtlebot1/ros2_ws/install/_local_setup_util_ps1.py'
+[40.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtlebot1/ros2_ws/install/setup.ps1'
+[40.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtlebot1/ros2_ws/install/local_setup.sh'
+[40.317s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/turtlebot1/ros2_ws/install/_local_setup_util_sh.py'
+[40.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtlebot1/ros2_ws/install/setup.sh'
+[40.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtlebot1/ros2_ws/install/local_setup.bash'
+[40.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtlebot1/ros2_ws/install/setup.bash'
+[40.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/turtlebot1/ros2_ws/install/local_setup.zsh'
+[40.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/turtlebot1/ros2_ws/install/setup.zsh'
