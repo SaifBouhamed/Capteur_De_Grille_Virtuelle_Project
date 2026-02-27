@@ -1,0 +1,16 @@
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/lib/mqtt_rgb_bridge/realsense_gpu_combined
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/ament_index/resource_index/package_run_dependencies/mqtt_rgb_bridge
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/ament_index/resource_index/parent_prefix_path/mqtt_rgb_bridge
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/environment/ament_prefix_path.sh
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/environment/ament_prefix_path.dsv
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/environment/path.sh
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/environment/path.dsv
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/local_setup.bash
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/local_setup.sh
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/local_setup.zsh
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/local_setup.dsv
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.dsv
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/ament_index/resource_index/packages/mqtt_rgb_bridge
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/cmake/mqtt_rgb_bridgeConfig.cmake
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/cmake/mqtt_rgb_bridgeConfig-version.cmake
+/home/turtlebot1/ros2_ws/install/mqtt_rgb_bridge/share/mqtt_rgb_bridge/package.xml
