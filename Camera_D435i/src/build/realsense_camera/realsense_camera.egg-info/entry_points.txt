@@ -1,0 +1,3 @@
+[console_scripts]
+rgb_publisher = realsense_camera.rgb_publisher:main
+

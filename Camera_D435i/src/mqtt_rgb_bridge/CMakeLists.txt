@@ -1,0 +1,35 @@
+cmake_minimum_required(VERSION 3.16)
+project(mqtt_rgb_bridge)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(OpenCV REQUIRED)
+
+add_executable(realsense_gpu_combined src/rgbpc.cpp)
+
+ament_target_dependencies(realsense_gpu_combined
+  rclcpp sensor_msgs std_msgs
+)
+
+target_include_directories(realsense_gpu_combined PRIVATE
+  /opt/ros/humble/include
+  ${OpenCV_INCLUDE_DIRS}
+)
+
+target_link_libraries(realsense_gpu_combined
+  ${OpenCV_LIBS}
+  /opt/ros/humble/lib/aarch64-linux-gnu/librealsense2.so
+  /opt/ros/humble/lib/aarch64-linux-gnu/librealsense2-gl.so
+  z
+)
+
+install(TARGETS realsense_gpu_combined
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+ament_package()

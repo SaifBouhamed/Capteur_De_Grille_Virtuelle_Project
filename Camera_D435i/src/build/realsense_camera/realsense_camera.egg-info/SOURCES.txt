@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+realsense_camera/__init__.py
+realsense_camera/rgb_publisher.py
+realsense_camera.egg-info/PKG-INFO
+realsense_camera.egg-info/SOURCES.txt
+realsense_camera.egg-info/dependency_links.txt
+realsense_camera.egg-info/entry_points.txt
+realsense_camera.egg-info/requires.txt
+realsense_camera.egg-info/top_level.txt
+realsense_camera.egg-info/zip-safe
+resource/realsense_camera

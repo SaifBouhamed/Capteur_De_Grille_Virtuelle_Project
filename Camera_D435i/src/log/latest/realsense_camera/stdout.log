@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating realsense_camera.egg-info
+writing realsense_camera.egg-info/PKG-INFO
+writing dependency_links to realsense_camera.egg-info/dependency_links.txt
+writing entry points to realsense_camera.egg-info/entry_points.txt
+writing requirements to realsense_camera.egg-info/requires.txt
+writing top-level names to realsense_camera.egg-info/top_level.txt
+writing manifest file 'realsense_camera.egg-info/SOURCES.txt'
+reading manifest file 'realsense_camera.egg-info/SOURCES.txt'
+writing manifest file 'realsense_camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/turtlebot1/ros2_ws/src/install/realsense_camera/lib/python3.10/site-packages/realsense-camera.egg-link (link to .)
+Installing rgb_publisher script to /home/turtlebot1/ros2_ws/src/install/realsense_camera/lib/realsense_camera
+
+Installed /home/turtlebot1/ros2_ws/src/build/realsense_camera
+running symlink_data
+creating /home/turtlebot1/ros2_ws/src/install/realsense_camera/share/ament_index
+creating /home/turtlebot1/ros2_ws/src/install/realsense_camera/share/ament_index/resource_index
+creating /home/turtlebot1/ros2_ws/src/install/realsense_camera/share/ament_index/resource_index/packages
+symbolically linking /home/turtlebot1/ros2_ws/src/build/realsense_camera/resource/realsense_camera -> /home/turtlebot1/ros2_ws/src/install/realsense_camera/share/ament_index/resource_index/packages
+symbolically linking /home/turtlebot1/ros2_ws/src/build/realsense_camera/package.xml -> /home/turtlebot1/ros2_ws/src/install/realsense_camera/share/realsense_camera
