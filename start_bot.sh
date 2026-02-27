@@ -4,7 +4,7 @@
 source /opt/ros/humble/setup.bash
 
 # 2. Aller dans le dossier et charger ton workspace
-cd ~/Capteur_De_Grille_Virtuelle_Project/
+cd ~/per/Turtlebot_gestes/
 source install/setup.bash
 
 # 3. Lancer tout le système avec le Launch File qu'on vient de créer
