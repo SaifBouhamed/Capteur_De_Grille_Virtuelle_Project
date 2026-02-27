@@ -10,7 +10,8 @@ Ce système capture en temps réel les données RGB et de profondeur de la camé
 
 ##  Démonstration
 
-<video src="demo.mp4" controls width="700"></video>
+▶ Demo video: 
+https://github.com/user-attachments/assets/v1.0-real-life/demo.mp4
 
 ### **Package 1 : `combined_decompressor`**
 Décompresse les paquets RCMB et génère les images RGB et nuages de points pour RViz.
