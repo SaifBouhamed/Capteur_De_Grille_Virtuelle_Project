@@ -25,7 +25,6 @@ Chaque package a son propre fichier README détaillé. Commencez par lire celui 
 ### **1. Camera_D435i/** 
 Pilote de capteur Intel RealSense D435i - capture RGB + Profondeur
 - S'exécute sur : **Robot** 
--  [Lire Camera_D435i/README.md](Camera_D435i/README.md)
 
 ### **2. Turtlebot_project/** 
 Espace de travail ROS 2 principal avec tous les packages de traitement
