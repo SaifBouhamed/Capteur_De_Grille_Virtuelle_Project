@@ -8,7 +8,7 @@ Implémentation ROS 2 en conditions réelles d'un capteur de grille virtuel pour
 
 Ce système capture en temps réel les données RGB et de profondeur de la caméra Intel RealSense D435i montée sur TurtleBot3, décompresse les flux de capteurs et les visualise dans RViz. Le nuage de points est projeté sur une grille de hauteur (heightmap) pour une cartographie d'élévation en temps réel.
 
-## 🎥 Démonstration
+##  Démonstration
 
 <video width="800" controls>
   <source src="demo.mp4" type="video/mp4">
@@ -30,7 +30,7 @@ Fournit les fichiers de configuration RViz et le modèle du robot pour la visual
 
 ---
 
-## 💾 Branches du Dépôt
+##  Branches du Dépôt
 
 - **`main`** – Version basée sur simulation (Ignition Gazebo)
 - **`real-life-robot-project`** (actuelle) – TurtleBot3 réel avec capteur RealSense D435i
@@ -38,7 +38,7 @@ Fournit les fichiers de configuration RViz et le modèle du robot pour la visual
 
 ---
 
-## 📦 Dépendances Système
+##  Dépendances Système
 
 ### Paquets Ubuntu
 ```bash
@@ -70,7 +70,7 @@ pip install numpy scipy scikit-learn opencv-python pyyaml
 ```
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Étape 1 : Cloner la Branche Matériel
 Puisque c'est une branche indépendante de `main`, clochez-la directement :
@@ -105,7 +105,7 @@ source install/setup.bash
 
 ---
 
-## ▶️ Exécution du Système
+##  Exécution du Système
 
 ### Démarrage Rapide
 ```bash
@@ -128,7 +128,7 @@ Cela lance le pipeline complet avec les paramètres par défaut
 
 ---
 
-## 🔍 Vérification et Débogage
+##  Vérification et Débogage
 
 ### Vérifier la Santé du Système
 ```bash
