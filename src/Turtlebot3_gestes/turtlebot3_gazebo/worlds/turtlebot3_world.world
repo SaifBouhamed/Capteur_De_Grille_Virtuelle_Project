@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu"></plugin>
+
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane</uri>
+    </include>
+
+    <model name="stairs">
+      <static>true</static>
+      <pose>1.0 2.5 0 0 0 0</pose> 
+      <link name="step_1">
+        <pose>0 0 0.05 0 0 0</pose>
+        <collision name="collision"><geometry><box><size>0.5 2.0 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.5 2.0 0.1</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient><diffuse>0.5 0.5 0.5 1</diffuse></material>
+        </visual>
+      </link>
+      <link name="step_2">
+        <pose>0.5 0 0.15 0 0 0</pose>
+        <collision name="collision"><geometry><box><size>0.5 2.0 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.5 2.0 0.1</size></box></geometry>
+          <material><ambient>0.6 0.6 0.6 1</ambient><diffuse>0.6 0.6 0.6 1</diffuse></material>
+        </visual>
+      </link>
+      <link name="step_3">
+        <pose>1.0 0 0.25 0 0 0</pose>
+        <collision name="collision"><geometry><box><size>0.5 2.0 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.5 2.0 0.1</size></box></geometry>
+          <material><ambient>0.7 0.7 0.7 1</ambient><diffuse>0.7 0.7 0.7 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube_1">
+      <static>true</static>
+      <pose>1.5 -1.0 0.05 0 0 0.2</pose> <link name="link">
+        <collision name="collision"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+          <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube_2">
+      <static>true</static>
+      <pose>2.5 -0.5 0.05 0 0 -0.5</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+          <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube_3">
+      <static>true</static>
+      <pose>0.8 -1.5 0.05 0 0 0.8</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+          <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube_4">
+      <static>true</static>
+      <pose>3.0 -1.2 0.05 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+          <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube_5">
+      <static>true</static>
+      <pose>0.5 -0.2 0.05 0 0 0.4</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+          <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube_6">
+      <static>true</static>
+      <pose>-0.5 -1.8 0.05 0 0 -0.2</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></collision>
+        <visual name="visual">
+          <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+          <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>-3.0 0.0 3.0 0 0.6 0</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>
